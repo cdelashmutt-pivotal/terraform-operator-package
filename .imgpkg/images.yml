@@ -1,0 +1,18 @@
+---
+apiVersion: imgpkg.carvel.dev/v1alpha1
+images:
+- annotations:
+    kbld.carvel.dev/id: ghcr.io/galleybytes/terraform-operator-gencert:1.0.2
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: 1.0.2
+          url: ghcr.io/galleybytes/terraform-operator-gencert:1.0.2
+  image: ghcr.io/galleybytes/terraform-operator-gencert@sha256:2568ec895998bbfff923b25b8c9f2eb9ee7b1b2c57a810e02651d144b545696d
+- annotations:
+    kbld.carvel.dev/id: isaaguilar/terraform-operator:v0.9.0-beta1
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: v0.9.0-beta1
+          url: isaaguilar/terraform-operator:v0.9.0-beta1
+  image: index.docker.io/isaaguilar/terraform-operator@sha256:2f1ff4ed3390ba32f926136001016c363797421d6ca92d12000c0c02575106e8
+kind: ImagesLock

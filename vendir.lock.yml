@@ -1,0 +1,11 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - git:
+      commitTitle: bundle v0.9.0-beta1
+      sha: 09db936b22af16d59081fc3984db35cd20b82fd2
+      tags:
+      - v0.9.0-beta1-1-g09db936
+    path: .
+  path: config/upstream
+kind: LockConfig
